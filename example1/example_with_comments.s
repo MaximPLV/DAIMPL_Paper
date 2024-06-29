@@ -20,7 +20,7 @@ funct:                                  # @funct
 	.seh_endprologue
 	movl	%ecx, 4(%rsp)
 	movl	4(%rsp), %eax
-	shll	%eax                	# shift by 1
+	shll	%eax                	# shift left by 1
 	movl	$2, %ecx
 	cltd
 	idivl	%ecx			# divide by 2
