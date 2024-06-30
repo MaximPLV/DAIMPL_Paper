@@ -15,4 +15,4 @@ funct:
 	ret
 	.seh_endproc
 	.ident	"GCC: (GNU) 14.1.0"
-	# as you can see the programm doesn't contain any arithmetic operations, only memory operations
+	# as you can see the program doesn't contain any arithmetic operations, only memory operations
