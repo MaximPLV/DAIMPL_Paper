@@ -38,7 +38,7 @@ static void BM_SomeFunction(benchmark::State& state) {
         someFunction(A, B, C, D);
     }
 }
+
 BENCHMARK(BM_SomeFunction);
 
 BENCHMARK_MAIN();
-
