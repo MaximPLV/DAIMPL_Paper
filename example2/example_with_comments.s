@@ -16,3 +16,4 @@ funct:
 	.seh_endproc
 	.ident	"GCC: (GNU) 14.1.0"
 	# as you can see the program doesn't contain any arithmetic operations, only memory operations
+ 	# this code essentially just stores the first argument, retrieves it again and then returns it
